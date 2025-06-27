@@ -1,0 +1,30 @@
+.api-box {
+  background-color: #f4faff;
+  border-left: 5px solid #007acc;
+  padding: 16px;
+  margin: 20px 0;
+  border-radius: 6px;
+  font-family: monospace;
+}
+
+.api-box code {
+  background: #e7f3ff;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.api-box pre {
+  background: #eef5ff;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+.faq-box {
+  background-color: #fffbe6;
+  border-left: 5px solid #ffcc00;
+  padding: 12px 16px;
+  margin: 12px 0 24px;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 1.6;
+}

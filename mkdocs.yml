@@ -1,0 +1,46 @@
+site_name: Test Project
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.emoji
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - "Тестове завдання: Бізнес-аналітик": index.md
+  - Task 1:
+      - Sequence Diagram: task-1/sequence-diagram-1.pdf
+      - Confluence: https://maksimkulik.atlassian.net/wiki/x/E4BaAQ
+      - API Reference: task-1/api-reference.md
+  - Task 2:
+      - BPMN Diagram: task-2/sequence-diagram-2.pdf
+      - Confluence: https://maksimkulik.atlassian.net/wiki/x/AgBQAQ
+
